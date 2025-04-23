@@ -30,7 +30,7 @@ bank_marketing_cleaning\
 ├── README.md
 └── requirements.txt
 ```
-```markdown
+
 - **bank_marketing_cleaning/**
   - **data/**
     - `bank_marketing.csv`
@@ -41,7 +41,7 @@ bank_marketing_cleaning\
   - `clean_bank_marketing.py`
   - `README.md`
   - `requirements.txt`
-  ```
+  
 
 ## Setup
 
@@ -61,7 +61,7 @@ python bankmark.py
 ```
 
 ## 🧹 Data Cleaning Details
-The process can be seen carried out in the 'bankmark.py' script
+The process can be seen carried out in the 'bankmark.py' script.
 
 The changes can be seen in the 'client.csv', 'campaign.csv', and 'economics.csv' files.
 
@@ -115,4 +115,4 @@ By participating, you agree to abide by our Code of Conduct. Be respectful, cons
 5. Contact
 For quick questions, reach out to the maintainer at olanipekuntimileyin@gmail.com or open an issue labeled question.
 ## License
-This project is licensed under MIT. See LICENSE.
+This project is licensed under [MIT License](./LICENSE).
