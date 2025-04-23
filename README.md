@@ -40,7 +40,7 @@ bank_marketing_cleaning\
     - [`[client.csv](./output/client.csv)`](./output/client.csv)
     - [`[campaign.csv](./output/campaign.csv)`](./output/campaign.csv)
     - [`[economics.csv](./output/economics.csv)`](./output/economics.csv)
-  - [`[clean_bank_marketing.py](./clean_bank_marketing.py)`](./clean_bank_marketing.py)
+  - [`[bankmark.py](./bank_mark.py)`](./bankmark.py)
   - [`[README.md](./README.md)`](./README.md)
   - [`[requirements.txt](./requirements.txt)`](./requirements.txt)
 
