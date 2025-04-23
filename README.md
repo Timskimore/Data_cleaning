@@ -31,18 +31,16 @@ bank_marketing_cleaning\
 └── requirements.txt
 ```
 
-## Project Structure
-
 - **[bank_marketing_cleaning/](./)**
   - **[data/](./data/)**
-    - [`[bank_marketing.csv](./data/bank_marketing.csv)`](./data/bank_marketing.csv)
+    - [bank_marketing.csv](./data/bank_marketing.csv)
   - **[output/](./output/)**
-    - [`[client.csv](./output/client.csv)`](./output/client.csv)
-    - [`[campaign.csv](./output/campaign.csv)`](./output/campaign.csv)
-    - [`[economics.csv](./output/economics.csv)`](./output/economics.csv)
-  - [`[bankmark.py](./bank_mark.py)`](./bankmark.py)
-  - [`[README.md](./README.md)`](./README.md)
-  - [`[requirements.txt](./requirements.txt)`](./requirements.txt)
+    - [client.csv](./output/client.csv)
+    - [campaign.csv](./output/campaign.csv)
+    - [economics.csv](./output/economics.csv)
+  - [bankmark.py](./bankmark.py)
+  - [README.md](./README.md)
+  - [requirements.txt](./requirements.txt)
 
 
 ## Setup
