@@ -30,6 +30,18 @@ bank_marketing_cleaning\
 ├── README.md
 └── requirements.txt
 ```
+```markdown
+- **bank_marketing_cleaning/**
+  - **data/**
+    - `bank_marketing.csv`
+  - **output/**
+    - `client.csv`
+    - `campaign.csv`
+    - `economics.csv`
+  - `clean_bank_marketing.py`
+  - `README.md`
+  - `requirements.txt`
+  ```
 
 ## Setup
 
@@ -49,28 +61,30 @@ python bankmark.py
 ```
 
 ## 🧹 Data Cleaning Details
-## 🧹 Data Cleaning Details
+The process can be seen carried out in the 'bankmark.py' script
+
+The changes can be seen in the 'client.csv', 'campaign.csv', and 'economics.csv' files.
 
 ### 📁 `client.csv`
-- **Standardize Text Fields**:  
-  - Replace `.` with `_` in `job` and `education`.  
-- **Handle Missing Values**:  
-  - Convert `"unknown"` in `education` to `NaN`.  
-- **Convert to Boolean**:  
-  - Map `"yes"/"no"/"unknown"` → `True`/`False` in `credit_default` & `mortgage`.
+- **Standardised Text Fields**:  
+  - Replaced `.` with `_` in `job` and `education`.  
+- **Handled Missing Values**:  
+  - Converted `"unknown"` in `education` to `NaN`.  
+- **Converted to Boolean**:  
+  - Mapped `"yes"/"no"/"unknown"` → `True`/`False` in `credit_default` & `mortgage`.
 
 ### 📁 `campaign.csv`
 - **Convert Outcomes to Boolean**:  
-  - Map `campaign_outcome` (`"yes"→True`, `"no"→False`) and  
+  - Mapped `campaign_outcome` (`"yes"→True`, `"no"→False`) and  
     `previous_outcome` (`"success"→True`, `"failure"/"nonexistent"→False`).  
-- **Construct `last_contact_date`**:  
-  - Combine `day`, `month`, and fixed `year=2022` into a `YYYY-MM-DD` datetime.  
-- **Clean Up**:  
-  - Drop the now-redundant `month`, `day`, and `year` columns.
+- **Constructed `last_contact_date`**:  
+  - Combined `day`, `month`, and fixed `year=2022` into a `YYYY-MM-DD` datetime.  
+- **Cleaned Up**:  
+  - Dropped the now-redundant `month`, `day`, and `year` columns.
 
 ### 📁 `economics.csv`
-- **Extract Economic Indicators**:  
-  - Select `cons_price_idx` and `euribor_three_months` without modification.
+- **Extracted Economic Indicators**:  
+  - Selected `cons_price_idx` and `euribor_three_months` without modification.
 
 ## Output
 Located in the output\ directory.
